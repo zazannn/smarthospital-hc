@@ -105,7 +105,7 @@ if st.button("Predict Departmen"):
     'heart_disease': int(heart_disease),
 
     'chief_complaint':
-      cc_map.get(chief_comlplaint, 9)
+      cc_map.get(chief_complaint, 9)
   }])
 
   patient_scaled = patient.copy()
