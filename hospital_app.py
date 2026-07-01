@@ -89,7 +89,7 @@ if st.button("Predict Departmen"):
     'shortness_breath': int(shortness_breath),
     'nausea_vomiting': int(nausea_vomiting),
     'dizziness': int(dizziness),
-    'skin_rash': int(skin_rash)
+    'skin_rash': int(skin_rash),
 
     'temperature_level':
       temp_map.get(temperature_level, 1),
