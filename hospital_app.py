@@ -37,3 +37,16 @@ gender = st.selectbox(
   "Gender",
   ["Female", "Male"]
 )
+
+st.header("Symptoms")
+
+fever = st.checkbox("Fever")
+cough = st.checkbox("Cough")
+headache = st.checkbox("Headache")
+chest_pain = st.checkbox("Chest Pain")
+stomach_pain = st.checkbox("Stomach Pain")
+shortness_breath = st.checkbox("Shortness of Breath")
+nausea_vomiting = st.checkbox("Nausea / Vomiting")
+dizziness = st.checkbox("Dizziness")
+skin_rash = st.checkbox("Skin Rash")
+
